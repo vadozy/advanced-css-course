@@ -6,6 +6,7 @@
   "scripts": {
     "compile:sass": "node-sass --output-style expanded sass/main.scss css/style.css -w",
     "dev": "live-server --host=localhost --port=8080 --browser='Google Chrome' --open=./index.html",
+    "grid-test": "live-server --host=localhost --port=8080 --browser='Google Chrome' --open=./grid-test.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
